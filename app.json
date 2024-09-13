@@ -3,6 +3,7 @@
     "name": "blank_app",
     "slug": "blank_app",
     "version": "1.0.0",
+    "scheme": "blank_app",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -22,6 +23,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
